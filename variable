@@ -1,0 +1,25 @@
+var1 = 7
+var2 = int(input("Enter a number : "))
+
+sum = var1 + var2
+average = (var1 + var2)/2
+sub = var1 - var2
+mul = var1 * var2
+div= var1 / var2
+power = var1 ** var2
+floor_division = var1 // var2
+
+
+print("Sum = ",sum)
+print("Average = ",average)
+print(f"Subtraction ={sub} ")
+print("Multiplication = ",mul)
+print("Division : ",float(div))
+print("Power of Variable = ",power)
+print("Floor Division = ",floor_division)
+
+name1=input("Enter first name : ")
+name2= "Farhana"
+string_add_name= name1+name2
+print(f"My name is {string_add_name}")
+print(name1," ",name2)
