@@ -1,0 +1,19 @@
+body{
+    background-color: green;
+}
+.style{
+    border: none;
+    background-color: coral;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 12px;
+    border-radius: 0 10px 0 10px;
+    margin: 50px;
+
+}
+.style:hover{
+    background-color: rgb(0, 255, 81);
+    color: rgb(220, 20, 20);
+    border-radius:10px 0 10px 0;
+    transform: scale(1.2);
+}
