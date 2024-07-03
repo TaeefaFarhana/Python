@@ -1,0 +1,8 @@
+import pandas as pd
+data={"Name": ["Taeefa","Farhana","Taeef","Farhan"],"Address":[2,7,3,5],"District":["Kushtia","Kushtia","x","y"]}
+df=pd.DataFrame(data,index=["a","b","c","d"])
+print(df)
+d=df.shape[0]
+print("\nShape of rows: ",d)
+d=df.shape[1]
+print("\nShape of columns: ",d)
